@@ -31,3 +31,24 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+
+
+===============================
+
+# apps
+
+- siakadplus
+- siakadplus_admin
+- siakadplus_guardian
+
+
+## siakadplus_admin
+
+Doctype
+- school
+    if school create, that will:
+    - create new site with school name
+    - install siakadplus app to the site
+    - automatic setup widzard
+    - add user with role school admin 
+    admin can nonactive the site (school)
