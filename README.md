@@ -47,8 +47,10 @@ mit
 Doctype
 - school
     if school create, that will:
-    - create new site with school name
-    - install siakadplus app to the site
-    - automatic setup widzard
+    - [done] create new site with school name
+    - [done] install siakadplus app to the site
+    - [done] automatic setup widzard
     - add user with role school admin 
-    admin can nonactive the site (school)
+    [done] admin can nonactive the site (school)
+    [done] download backup data school
+    delete and import data school use backup
