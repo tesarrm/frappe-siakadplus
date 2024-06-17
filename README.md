@@ -39,18 +39,27 @@ mit
 
 - siakadplus
 - siakadplus_admin
-- siakadplus_guardian
-
 
 ## siakadplus_admin
 
 Doctype
 - school
-    if school create, that will:
+    [done] if school create, that will:
     - [done] create new site with school name
     - [done] install siakadplus app to the site
     - [done] automatic setup widzard
-    - add user with role school admin 
+    - [prosess] add user with role school admin 
     [done] admin can nonactive the site (school)
     [done] download backup data school
-    delete and import data school use backup
+    [done] delete and import data school use backup
+
+Urutan penjelasan
+- apps siakadplus dan siakadplus_admin
+- overview doctype siakadplus_admin
+- school
+    - create school with 3 conditions
+    - school backup
+        - melakukan backup
+        - download file backup
+        - hapus site (school)
+        - restore dariu file backup
